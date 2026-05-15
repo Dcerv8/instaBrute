@@ -1,0 +1,6 @@
+services:
+  instabrute:
+    image: instabrute
+    build:
+      context: .
+      dockerfile: ./Dockerfile
